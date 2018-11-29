@@ -1,7 +1,8 @@
 # redis-client
 redis集群客户端：封装jedis，支持读写分离，sentinel监听，集群分片
 
-基于github上的redic项目和redis-sentinel-client项目的改进，合并了这两个项目，提供：
+基于github上的redic项目和redis-sentinel-client项目的改进，合并了这两个项目，
+封装一个master和slave的小组为一个单位，提供：
 
 1.读写分离
 2.sentinel监听master故障切换
